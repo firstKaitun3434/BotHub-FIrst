@@ -1,3 +1,4 @@
+_G.AutoFram = true
 function Tween(P)
 	pcall(function()
 		local Pos = (P.Position - game.Workspace:FindFirstChild("Part01BotHub").Position).Magnitude
